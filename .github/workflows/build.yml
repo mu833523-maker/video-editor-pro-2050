@@ -18,12 +18,14 @@ jobs:
         with:
           flutter-version: '3.24.5'
           channel: 'stable'
+          cache: true
       - name: Get dependencies
         run: flutter pub get
       - name: Build APK
-        run: flutter build apk --release
+        run: flutter build apk --release --no-shrink
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: Video-Editor-Pro-2050
           path: build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
