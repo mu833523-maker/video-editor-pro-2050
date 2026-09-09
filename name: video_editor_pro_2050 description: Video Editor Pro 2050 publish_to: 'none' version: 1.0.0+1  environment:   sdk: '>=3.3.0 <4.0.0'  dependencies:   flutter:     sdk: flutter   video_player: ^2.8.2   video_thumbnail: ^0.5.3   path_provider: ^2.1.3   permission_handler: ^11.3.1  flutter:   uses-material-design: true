@@ -1,0 +1,12 @@
+name: video_editor_pro_2050
+description: Video Editor Pro 2050
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.8.2
+  video_thumbnail: ^0.5.3
+flutter:
+  uses-material-design: true
