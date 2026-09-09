@@ -1,6 +1,0 @@
-{
-  "name": "Video Editor Pro 2050",
-  "description": "Next-gen multi-track video editor with AI auto captions, 4K 60fps export, speed curve velocity, chroma key, 100+ filters, glitch effects, and PIP overlay.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
